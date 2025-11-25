@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+  <label>Marca:
+    <input type="text" name="marca">
+  </label>
+
+  <label>Tipo:
+    <select name="tipo">
+      <option value="compacta">Compacta</option>
+      <option value="bridge">Bridge</option>
+      <option value="evil">EVIL / Mirrorless</option>
+      <option value="reflex">Réflex</option>
+    </select>
+  </label>
+<br>
+  <label>Resolución mínima (MP):
+    <input type="number" name="mp" min="1">
+  </label>
+<br>
+  <label>Presupuesto máximo (€):
+    <input type="number" name="precio" min="0">
+  </label>
+<br>
+  <button type="submit">Buscar</button>
+</form>
+
+</body>
+</html>
