@@ -1,0 +1,43 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    font-size: 3em;       /* Tamaño grande */
+    font-style: normal;   /* Sin cursiva */
+    font-weight: bold;    /* Negrita */
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Autor */
+h2 {
+    font-size: 2em;
+    font-style: italic;   /* Cursiva */
+    font-weight: normal;  /* Normal */
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Subtítulo */
+h3 {
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 15px;
+}

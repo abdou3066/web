@@ -1,12 +1,11 @@
-h1 {
-    color:red;
-
+.rojo {
+  color: red;
 }
 
-</style>
+.amarillo {
+  color: orange;
+}
 
-<ul>
-    <li>Agua</li>
-    <li class="rojo">manzanas</li>
-    <li>Galletas</li>
-</ul>
+.verde {
+  color: green;
+}

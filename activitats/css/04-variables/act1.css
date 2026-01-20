@@ -1,0 +1,11 @@
+:root {
+  --color-principal: darkblue;
+}
+
+h1 {
+  color: var(--color-principal);
+}
+
+a {
+  color: var(--color-principal);
+}

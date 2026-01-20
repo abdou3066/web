@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 20px;
+}
+
+.blog {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.blog-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #f36e21; /* naranja */
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.blog-highlight {
+  color: #f36e21;
+}
+
+.author-name {
+  background-color: #fdd;
+  color: #b33;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.about-link {
+  color: #f36e21;
+  text-decoration: none;
+}
+
+.blog p {
+  margin: 10px 0;
+  color: #444;
+}
+
+.post {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.post-date {
+  font-weight: bold;
+  color: #d33;
+}
+
+.post-title {
+  font-weight: bold;
+  color: #c00;
+  margin: 5px 0;
+}
+
+.read-more {
+  color: #d33;
+  font-style: italic;
+  cursor: pointer;
+}
