@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.book-container {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.book-title {
+    font-size: 36px;
+    letter-spacing: 5px; /* separa las letras del título */
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.author {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.first-name {
+    margin-right: 10px; /* separa nombre y apellido */
+}
+
+.chapter-title {
+    font-size: 24px;
+    text-transform: uppercase; /* capítulo en mayúsculas */
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+.chapter-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify; /* texto justificado */
+    color: #2c3e50;
+}
