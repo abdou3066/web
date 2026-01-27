@@ -1,0 +1,48 @@
+/* Cargar las fuentes locales */
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Clases para usar las fuentes */
+.title-font {
+    font-family: 'PlayfairDisplay', serif;
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-font {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* Estilos generales de contenedor */
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}

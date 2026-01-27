@@ -1,0 +1,44 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: white;
+}
+
+.document {
+    width: 90%;
+    margin: 40px auto;
+    font-size: 36px;
+    line-height: 1.6;
+}
+
+/* Estilo general de censura */
+.censurado {
+    display: inline-block;
+    height: 1em;
+    background-color: black;
+    vertical-align: middle;
+}
+
+/* Tamaños distintos */
+.corto {
+    width: 80px;
+}
+
+.nombre {
+    width: 200px;
+}
+
+.medio {
+    width: 180px;
+}
+
+.largo {
+    width: 260px;
+}
+
+.muy-largo {
+    width: 400px;
+}
+
+.firma {
+    margin-top: 40px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sistema de Comentarios</title>
+  <link rel="stylesheet" href="act2.css" />
+</head>
+<body>
+
+  <section class="comentarios">
+    <h2>Comentarios</h2>
+
+    <form class="form-comentario">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="mensaje">Comentario:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="lista-comentarios">
+      <!-- Aquí aparecerán los comentarios enviados -->
+      <article class="comentario">
+        <h3>Juan Pérez</h3>
+        <p>¡Muy buen artículo! Gracias por compartir.</p>
+      </article>
+      <article class="comentario">
+        <h3>Ana Gómez</h3>
+        <p>Me gustaría saber más sobre el tema.</p>
+      </article>
+    </div>
+  </section>
+
+</body>
+</html>
