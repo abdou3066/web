@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.paso {
+  background-color: #4caf50; /* color de fondo común */
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+}
+
+/* Efecto escalera cambiando la anchura */
+.paso-1 {
+  width: 20%;
+}
+
+.paso-2 {
+  width: 35%;
+}
+
+.paso-3 {
+  width: 50%;
+}
+
+.paso-4 {
+  width: 65%;
+}
+
+.paso-5 {
+  width: 80%;
+}

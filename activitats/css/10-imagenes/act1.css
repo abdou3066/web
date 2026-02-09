@@ -1,0 +1,27 @@
+.chat {
+  width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.mensaje {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* redondo */
+  object-fit: cover;
+}
+
+.fecha {
+  font-size: 12px;
+  color: gray;
+}
+
+p {
+  margin: 5px 0 0 0;
+}
