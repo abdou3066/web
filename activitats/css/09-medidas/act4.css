@@ -1,0 +1,5 @@
+.resaltado {
+  background-color: rgba(255, 255, 0, 0.5); /* groc semitransparent */
+  padding: 2px 4px;
+  border-bottom: 2px solid yellow; /* efecte de subratllat */
+}
