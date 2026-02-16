@@ -1,0 +1,14 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+/* imagen con filtro */
+.filtro:hover {
+  filter: grayscale(100%);
+}

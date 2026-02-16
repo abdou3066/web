@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  text-align: center;
+  padding-top: 40px;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+/* Marco rojo redondeado */
+.frame {
+  display: inline-block;
+  padding: 20px;
+  border: 10px solid red;
+  border-radius: 25px;
+  background: white;
+}
+
+.frame img {
+  width: 250px;
+  height: auto;
+  display: block;
+}
