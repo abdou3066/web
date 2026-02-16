@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 40px 0;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* Marco que atrapa al monstruo */
+.monster-frame {
+  display: inline-block;
+  padding: 20px;
+  border: 10px solid orange;      /* borde principal */
+  border-radius: 12px;            /* esquinas redondeadas */
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+  background-color: #ffffff;
+}
+
+.monster-frame img {
+  display: block;
+  max-width: 250px;
+  height: auto;
+}
