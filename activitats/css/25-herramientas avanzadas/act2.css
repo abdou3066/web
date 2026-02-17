@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#87ceeb, #ffffff);
+}
+
+/* Contenedor */
+.escena {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+/* Soporte */
+.soporte {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  height: 200px;
+  background: #444;
+  transform: translateX(-50%);
+}
+
+/* Rueda */
+.rueda {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 6px solid #333;
+  border-radius: 50%;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: girar 20s linear infinite;
+}
+
+/* Cabinas */
+.cabina {
+  width: 40px;
+  height: 40px;
+  background: crimson;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: -120px 0;
+}
+
+/* Posiciones alrededor del círculo */
+.c1 { transform: rotate(0deg) translateX(120px); }
+.c2 { transform: rotate(60deg) translateX(120px); }
+.c3 { transform: rotate(120deg) translateX(120px); }
+.c4 { transform: rotate(180deg) translateX(120px); }
+.c5 { transform: rotate(240deg) translateX(120px); }
+.c6 { transform: rotate(300deg) translateX(120px); }
+
+/* Animación */
+@keyframes girar {
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
