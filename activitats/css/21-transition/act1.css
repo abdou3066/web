@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Formulario */
+.formulario {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* transición suave */
+}
+
+/* Efecto al tener foco */
+input:focus {
+  outline: none;
+  border-color: transparent; /* desvanece el borde */
+  transform: scale(1.05); /* aumenta ligeramente tamaño */
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* Botón */
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #ff4d3b;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover botón */
+button:hover {
+  background-color: transparent; /* pierde color */
+  color: #ff4d3b;
+  border: 2px solid #ff4d3b;
+}
