@@ -1,47 +1,23 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  height: 100vh;
-  background-color: #f4f4f4;
-}
-
-/* Banner de cookies */
-.cookie-banner {
+/* Estilos iniciales para el cartel */
+#cookie-banner {
   position: fixed;
-  bottom: -100px; /* fuera de pantalla al inicio */
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #333;
+  background: #333;
   color: white;
   padding: 15px 25px;
-  border-radius: 10px 10px 0 0;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  opacity: 0;
-  transition: bottom 0.6s ease, opacity 0.6s ease;
-  z-index: 1000;
-}
-
-/* Botón aceptar */
-.cookie-banner button {
-  padding: 8px 15px;
-  border: none;
-  background-color: #ff9900;
-  color: white;
   border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s ease;
+  font-family: Arial, sans-serif;
 }
 
-.cookie-banner button:hover {
-  background-color: #e68a00;
+/* Clase para mostrar el cartel */
+#cookie-banner.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
-/* Clase para mostrar el banner */
-.cookie-banner.show {
-  bottom: 30px; /* se desplaza hacia arriba */
-  opacity: 1;   /* aparece suavemente */
-}
 
