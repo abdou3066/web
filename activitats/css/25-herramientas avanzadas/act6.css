@@ -1,0 +1,24 @@
+.pendulo{
+    width:4px;
+    height:150px;
+    background:black;
+    margin: auto;
+    position:relative;
+    transform-origin: top;
+    animation: balanceo 2s ease-in-out infinite alternate;
+}
+
+.bola{
+    width:30px;
+    height:30px;
+    background:red;
+    border-radius:50%;
+    position:absolute;
+    bottom:-15px;
+    left:-13px;
+}
+
+@keyframes balanceo{
+    from{ transform: rotate(-30deg); }
+    to{ transform: rotate(30deg); }
+}

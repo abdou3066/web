@@ -8,21 +8,9 @@
 </head>
 <body>
 
-   <div id="cookie-banner">
-    Este sitio usa cookies para mejorar tu experiencia. 
-    <button id="accept-btn">Aceptar</button>
-  </div>
+    <section>
+        <div class="cookies">🍪 Acepta nuestras cookies</div>
+    </section>
 
-  <script>
-    // Espera 3 segundos y muestra el cartel con animación
-    setTimeout(() => {
-      document.getElementById('cookie-banner').classList.add('show');
-    }, 3000);
-
-    // Oculta el cartel al aceptar
-    document.getElementById('accept-btn').addEventListener('click', () => {
-      document.getElementById('cookie-banner').classList.remove('show');
-    });
-  </script>
 </body>
 </html>
