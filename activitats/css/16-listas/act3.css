@@ -1,0 +1,19 @@
+/* Navegación horizontal */ 
+.nav {
+ list-style: none;
+  padding: 0;
+   display: flex;
+    gap: 20px;
+ } 
+.nav li a {
+ background-color: #007bff;
+ text-decoration: none;
+ color: black;
+ font-size: 18px;
+ padding: 8px 14px;
+ border-radius: 6px;
+}
+ /* Efecto hover */ 
+.nav li a:hover {
+ background-color: #007bff; 
+ color: white; }
