@@ -1,27 +1,69 @@
-.escena{
-    width:800px;
-    height:500px;
-    margin:auto;
-    position:relative;
-    overflow:hidden;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Fondo */
-.pared{
-    position:absolute;
-    width:100%;
-    height:60%;
-    top:0;
-    background:url("wall.jpg") center/cover;
+/* Page */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ddd;
 }
 
-.suelo{
-    transform: rotateX(45deg);
-    position:absolute;
-    width:100%;
-    height:40%;
-    bottom:0;
-    background:url("floor.jpg") center/cover;
-    
+/* Scene */
+.scene {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  perspective: 900px;
+  overflow: hidden;
 }
 
+/* Wall */
+.wall {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 55%;
+  background: url("wall.jpg") center / cover no-repeat;
+  z-index: 1;
+}
+
+/* Floor */
+.floor {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  height: 60%;
+  background: url("floor.jpg") center / cover no-repeat;
+  transform-origin: top;
+  transform: rotateX(-65deg);
+  z-index: 0;
+}
+
+/* Oveja base */
+.oveja {
+  position: absolute;
+  left: 50%;
+  width: 140px;
+  transform: translateX(-50%);
+}
+
+/* oveja real */
+.oveja-real {
+  bottom: 120px;
+  z-index: 3;
+}
+
+/* Wall shadow (clone) */
+.oveja-sombra {
+  bottom: 180px;
+  z-index: 2;
+  filter: brightness(0) blur(3px);
+  opacity: 0.55;
+  transform: translateX(-130%) scale(1.1);
+}
