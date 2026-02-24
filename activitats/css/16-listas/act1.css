@@ -1,0 +1,4 @@
+/* Lista con marcadores cuadrados */ 
+.cuadrados {
+    list-style-type: square; font-size: 18px;
+ }
