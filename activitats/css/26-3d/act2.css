@@ -41,7 +41,7 @@ body {
   height: 60%;
   background: url("floor.jpg") center / cover no-repeat;
   transform-origin: top;
-  transform: rotateX(-65deg);
+  transform: rotateX(65deg);
   z-index: 0;
 }
 
