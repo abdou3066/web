@@ -71,7 +71,7 @@ nav{
     min-height: 100px;
 }
 .image{
-    width: 1500px;
+    width: 500px;
     height: 50vh;
     border-radius: 100%;
     overflow: hidden;
@@ -121,7 +121,7 @@ nav{
     }
     .image{
         z-index: -1;
-        width: 40%;
+        width: 60%;
         height: 80%;
     }
 }
