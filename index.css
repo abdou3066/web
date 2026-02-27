@@ -35,8 +35,8 @@ nav{
 }
 
 .logo span{
-    color: rgb(211,3,3);
-    text-shadow: 0 0 10px rgb(211,3,3) ;
+    color: #f2afff;
+    text-shadow: 0 0 10px rgb(190, 0, 219) ;
 }
 .nav-container .links {
     display: flex;
@@ -52,8 +52,8 @@ nav{
 }
 
 .nav-container .links a:hover{
-    color: rgb(211,3,3);
-    border-bottom: 2px solid rgb(211,3,3);
+    color: #e666ff;
+    border-bottom: 0 0 10px rgb(162, 0, 187) ;
 }
 
 
@@ -64,22 +64,30 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 80px;
 }
 .main-container .content{
     color: white;
     width: 40%;
     min-height: 100px;
+    transform: translateY(100px);
+    margin-left: 100px;
 }
 .image{
-    width: 500px;
+    width: 400px;
     height: 50vh;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: 0 0 50px rgb(211,3,3);
+    box-shadow: 0 0 50px rgb(170, 0, 255);
 }
 
 .image img{
-    width: 100%;
+    width: 400px;
+    height: 420px;
+    border-radius: 150%;
+    object-fit: cover;
+    object-position: center 100%;
+
 }
 
 .image:hover{
