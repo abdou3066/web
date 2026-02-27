@@ -1,0 +1,29 @@
+body{
+ margin: 0;
+   font-family: Arial, sans-serif;
+   background: radial-gradient(circle at top left, #1a1a2e, #0f0f0f);
+   color: #e5e5e5;
+   }
+
+h2{
+   text-align: center;
+   color: #8b5cf6;
+   margin-top: 40px;
+  font-size: 40px;
+}
+.contacto a{
+  text-decoration: none;
+ background: #1c1c1c;
+ padding: 15px;
+ border-radius: 12px;
+ text-align: center;
+ color: #e5e5e5;
+ transition: 0.3s;
+ box-shadow: 0 0 10px rgba(139, 92, 246, 0.2);
+ }
+
+.contacto a:hover{
+  background: #8b5cf6;
+   color: white;
+  transform: translateY(-5px);
+}
