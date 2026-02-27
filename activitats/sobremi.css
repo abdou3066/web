@@ -11,11 +11,16 @@ h2{
    margin-top: 40px;
   font-size: 40px;
 }
-p{
+.main-container{
    text-align: center;
    color: #ffffff;
    margin-top: 40px;
   font-size: 40px;
 }
-
-
+.main-container .content{
+    color: white;
+    width: 40%;
+    min-height: 100px;
+    transform: translateY(100px);
+    margin-left: 100px;
+}
