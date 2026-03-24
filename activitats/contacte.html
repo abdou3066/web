@@ -7,9 +7,21 @@
     <link rel="stylesheet" href="contacte.css">
 </head>
 <body>
-    <section id="contacto">
-        <h2>Contacto</h2>
-    </section>
+     <div class="contact-container">
+        <h1>contacte</h1>
+        <form action="#" method="post">
+            <label for="name">nom:</label>
+            <input type="text" id="name" name="name" placeholder="teu nom" required>
+
+            <label for="email">teu email:</label>
+            <input type="email" id="email" name="email" placeholder="teu email" required>
+
+            <label for="message">teu message:</label>
+            <textarea id="message" name="message" placeholder="teu message aqui" required></textarea>
+
+            <button type="submit">envia</button>
+        </form>
+    </div>
   
 
 </body>
