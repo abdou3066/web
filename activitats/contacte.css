@@ -21,11 +21,14 @@ body {
 
 .contact-container h1 {
     text-align: center;
+    color: #8b5cf6;
     margin-bottom: 20px;
+    
 }
 
 .contact-container label {
     display: block;
+    color: #8b5cf6;
     margin: 10px 0 5px;
 }
 
@@ -50,13 +53,13 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #6c2db8;
-    color: rgb(255, 255, 255);
+    color:#ffffff;
     font-size: 16px;
     cursor: pointer;
 }
 
 .contact-container button:hover {
-    background-color: #ffffff;
+    background-color:#8b5cf6;
 }
 
 
